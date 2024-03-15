@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+}
+
+.container {
+  background-color: white;
+border-radius: 15px;
+padding: 5px;
+
+}
+
+.boll {
+    width: 200px; /* Tamanho da bola */
+    height: 200px; /* Tamanho da bola */
+    border-radius: 50%; /* Bordas arredondadas para torná-la uma bola */
+    overflow: hidden; 
+    display: flex; /* ativar o modelo flexível */
+    justify-content: center; /* centraliza horizontalmente */
+    align-items: center; /* centraliza verticalmente */
+}
+
+.boll img {
+    width: 100%; /* Garante que a imagem ocupe toda a área da bola */
+    height: auto; /* Mantém a proporção da imagem */
+
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+  padding: 10px;
+}
+
+p {
+  text-align: justify;
+  padding: 10px;
+}
+
+footer{
+    color:white;
+}
